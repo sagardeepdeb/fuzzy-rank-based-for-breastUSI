@@ -3,4 +3,4 @@ This repository contains code for the article Breast Ultrasound Image classifica
 
 
 
-This reprository is heavily inspired from https://github.com/Rohit-Kundu/Fuzzy-Rank-Ensemble
+This repository is heavily inspired from https://github.com/Rohit-Kundu/Fuzzy-Rank-Ensemble

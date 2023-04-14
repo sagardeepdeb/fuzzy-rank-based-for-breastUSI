@@ -1,7 +1,7 @@
 # Breast Ultra Sound Image Classification using fuzzy-rank-based ensemble network
 
 
-## This repository contains code for the article Breast Ultrasound Image classification using fuzzy-rank-based ensemble network. The article is accepted for publication in Biomedical Signal Processing and Control, Elseivier. 
+## This repository contains code for the article Breast Ultrasound Image classification using fuzzy-rank-based ensemble network. The article is accepted for publication in Biomedical Signal Processing and Control, Elseivier and can beobtained from [here](https://www.sciencedirect.com/science/article/pii/S174680942300304X). 
 
 This section briefly introduces our proposed fuzzy-rank-based ensemble network. The same schematic diagram is given in followingfigure ![Figure 1](https://github.com/sagardeepdeb/fuzzy-rank-based-for-breastUSI/blob/main/block%20diagram.png) The main idea behind proposing a fuzzy-ensemble-based breast cancer detector is to use multiple customized base learners, each generating a confidence score for the presence of breast cancer. Using multiple base learners provides more robust and accurate results than relying on a single classifier. The fuzzy-ensemble approach then combines these confidence scores using fuzzy set theory, taking into account the uncertainty and variability in the scores. The resulting fuzzy-ensemble score is then used to make a final diagnosis. This approach aims to improve breast cancer detection's accuracy and reliability by utilizing the strengths of multiple classifiers and incorporating uncertainty in the final decision. The weights of the initial layers of four base learners are frozen, whereas the later layers are fine-tuned on the Ultrasound dataset we have used. The brief details about the base learners used are as follows.
 
@@ -14,7 +14,7 @@ As base learners, we have used four partially pre-trained Convolutional Neural N
 
 Conducting five-fold cross-validation using the base learners an accuracy of $77.69 \pm 3.22$, $83.23 \pm 3.14$, $78.31 \pm 2.27$, and $78.62 \pm 4.23$ were obtained. Furthermore, using the proposed fuzzy-rank-based model, an accuracy of $85.23 \pm 2.52$ is obtained. We have proved that the proposed fuzzy-rank-based ensemble network increases the classification performance. 
 
-This repository is heavily inspired from https://github.com/Rohit-Kundu/Fuzzy-Rank-Ensemble
+This repository is heavily inspired from [this repository](https://github.com/Rohit-Kundu/Fuzzy-Rank-Ensemble)
 
 
 ## Citation

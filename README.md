@@ -20,12 +20,12 @@ This repository is heavily inspired from [this repository](https://github.com/Ro
 ## Citation
 Please cite our paper if you find the work useful: 
 <pre>
-  @article{deb2023breast,
+@article{deb2023breast,
   title={Breast UltraSound Image classification using fuzzy-rank-based ensemble network},
   author={Deb, Sagar Deep and Jha, Rajib Kumar},
   journal={Biomedical Signal Processing and Control},
   volume={85},
   pages={104871},
   year={2023},
-  publisher={Elsevier}}
+publisher={Elsevier}}
 </pre>
